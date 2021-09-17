@@ -1,0 +1,19 @@
+/*funcionamento*/
+#opcao-bolos:checked ~ #menu-bebidas,
+#opcao-bebidas:checked ~ #menu-bolos{
+    display: none;
+}
+input[type=radio]{
+    display: none;
+
+}
+.menu{
+    width: 100%;
+}
+body{
+    background: #3d1a11;
+    font-family: sans-serif;
+    margin:0;
+    text-align:center;
+    
+}
